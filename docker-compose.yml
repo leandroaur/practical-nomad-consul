@@ -15,7 +15,7 @@ services:
   load-balancer:
     image: fabiolb/fabio
     ports:
-      - "9999:9999"
-      - "9998:9998"
+      - "7999:9999"
+      - "7998:9998"
     volumes:
       - ./external-services/fabio.properties:/etc/fabio/fabio.properties
